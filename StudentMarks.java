@@ -172,10 +172,10 @@ public class StudentMarks
         }
     }
 
-    /**
+    /*****
      * The printHighest method will show the total marks of each students
      *
-     */
+     ****/
     public void printTotalMarks() {
         System.out.println("-------------------------Total mark of the students ---------------------\n");
         System.out.println(unitName + "\n");
