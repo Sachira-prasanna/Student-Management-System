@@ -148,7 +148,7 @@ public class StudentMarks
                 if (line.startsWith("//")) { // Ignore comment lines
                     continue;
                 }
-                line = line.replace(",,",",0.0,"); // Assign 0.0 to empty values
+                line = line.replace(",,",",0.0,"); // Assign 0.0 to empty values.
                 if (line.endsWith(",")) {
                     line = line + "0.0";
                 }
