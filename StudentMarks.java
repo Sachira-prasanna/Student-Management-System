@@ -219,7 +219,7 @@ public class StudentMarks
     public void printsStudentsWithMarksLessThanThreshold() {
         getThresholdValue();
         System.out.println("\n--------------- Students with total mark less than threshold value of " + threshold + "---------------\n");
-        System.out.println(headings + ", Total Mark \n" ); // Print the heading included in the file with Total Mark as another heading
+        System.out.println(headings + ", Total Mark \n" ); // Print the heading included in the file with Total Mark as another heading..
         for (int i=0; i<studentDetailsArray.size(); i++) {
             if (studentDetailsArray.get(i).getTotalMarks() < threshold ) {
                 System.out.println(studentDetailsArray.get(i).getLastName()+","+studentDetailsArray.get(i).getFirstName() +","+
