@@ -159,7 +159,7 @@ public class StudentMarks
                 if (lineArray.length >= 1 && (lineArray[0].equals("0.0") || lineArray[0].equals(""))) {
                     continue;  // ignore the empty lines which were assigned with 0.0 previously
                 }
-                if (lineNumber != 1 && lineNumber != 2) { // Read the remaining lines of the file except line 01 and 02
+                if (lineNumber != 1 && lineNumber != 2) { // Read the remaining lines of the file except line 01 and 02.
                     StudentDetails studentDetails = new StudentDetails(lineArray[2].trim(),lineArray[3].trim(),lineArray[4].trim(),lineArray[5],
                     lineArray[0].trim(),lineArray[1].trim(), (Double.parseDouble(lineArray[3].trim()) + Double.parseDouble(lineArray[4].trim()) + Double.parseDouble(lineArray[5].trim())) );
                     studentDetailsArray.add(studentDetails);
