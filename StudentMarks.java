@@ -188,10 +188,10 @@ public class StudentMarks
 
     }
 
-    /**
+    /*****
      * The getThresholdValue method will receive a threshold value as an input
      *
-     */
+     *****/
     public void getThresholdValue() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("\nEnter the threshold value: ");
