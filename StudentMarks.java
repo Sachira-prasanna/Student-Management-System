@@ -139,7 +139,7 @@ public class StudentMarks
                 if (lineNumber == 1) { // Read the first line of the file which is the unit name
                     unitName = line;
                 } 
-                if (lineNumber == 2) { // Read the second line of the file which is includes all the headings in the file
+                if (lineNumber == 2) { // Read the second line of the file which is includes all the headings in the file.
                     headings = line;
                 }
                 if (line.startsWith("#")) { // Ignore comment lines
