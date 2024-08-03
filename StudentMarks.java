@@ -290,9 +290,9 @@ public class StudentMarks
      *
      */
     public void printTop05StudentsWithHighestTotal() {
-        sortStudentsTotalMarks(); // Sort the student details array
+        sortStudentsTotalMarks(); // Sort the student details array.
         System.out.println("-------------Top 05 students with highest total mark -------------------------\n");
-        System.out.println(headings + ", Total Mark \n" ); // Print the heading included in the file with Total Mark as another heading
+        System.out.println(headings + ", Total Mark \n" ); // Print the heading included in the file with Total Mark as another heading.
         
         for (int i = studentDetailsArray.size()-1; i>studentDetailsArray.size()-6; i--) {
             System.out.println(studentDetailsArray.get(i).getLastName()+","+studentDetailsArray.get(i).getFirstName() +","+
