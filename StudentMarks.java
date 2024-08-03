@@ -200,11 +200,11 @@ public class StudentMarks
         while (!validInput) {
             try {
                 threshold = scanner.nextDouble();
-                validInput = true; // Exit the loop if input is a valid double
+                validInput = true; // Exit the loop if input is a valid double.
             } catch (InputMismatchException ime) {
                 System.out.println("#######Error!######");
                 System.out.println("The threshold value you have entered is invalid. You should enter a number.");
-                scanner.nextLine(); // Consume the invalid input
+                scanner.nextLine(); // Consume the invalid input.
             } catch (Exception ex) {
                 System.out.println("#######Error!######");
                 System.out.println("There is an error when getting input: " + ex);
