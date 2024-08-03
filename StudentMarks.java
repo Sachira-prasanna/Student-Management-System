@@ -15,7 +15,7 @@ import java.io.IOException;
  */
 public class StudentMarks
 {
-    // instance variables
+    // instance variables.
     private static File studentGradeCsv = new File("prog5001_students_grade_2022.csv");
     private static Scanner readScanner;
     private static String unitName;
@@ -105,7 +105,7 @@ public class StudentMarks
     public void runSelectedOption(int optionId) {
         switch (optionId){
                 case 1:
-                    printTotalMarks(); // Print total marks
+                    printTotalMarks(); // Print total marks.
                     break;
                 case 2:
                     printsStudentsWithMarksLessThanThreshold(); // Prints the students less than the user input threshold
@@ -240,7 +240,7 @@ public class StudentMarks
             for (int k = 0; k < studentDetailsArray.size()-i-1; k++) {
                 if (studentDetailsArray.get(k).getTotalMarks() > studentDetailsArray.get(k + 1).getTotalMarks()) {
                     
-                    // Assign the kth object in the studentDetailsArray to the tmpStudentDetail
+                    // Assign the kth object in the studentDetailsArray to the tmpStudentDetail.
                     StudentDetails tmpStudentDetail = new StudentDetails(studentDetailsArray.get(k).getStudentId(), studentDetailsArray.get(k).getMark01(),
                             studentDetailsArray.get(k).getMark02(), studentDetailsArray.get(k).getMark03(), studentDetailsArray.get(k).getFirstName(),
                             studentDetailsArray.get(k).getLastName(), studentDetailsArray.get(k).getTotalMarks());
