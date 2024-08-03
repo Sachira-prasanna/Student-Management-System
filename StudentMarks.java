@@ -153,7 +153,7 @@ public class StudentMarks
                     line = line + "0.0";
                 }
                 lineArray = line.split(",");
-                if (lineArray.length != 6) { // Ensuring valid data ignores the empty cells replace this by changing the null values to 0
+                if (lineArray.length != 6) { // Ensuring valid data ignores the empty cells replace this by changing the null values to 0.
                     continue;
                 }
                 if (lineArray.length >= 1 && (lineArray[0].equals("0.0") || lineArray[0].equals(""))) {
